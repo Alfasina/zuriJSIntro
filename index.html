@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script defer>
+        document.write('<h1><strong>Name:</strong><span id="name"></span></h1><hr><h2><strong>Height:</strong><span id="Height"></span></h2><h2><strong>Country:</strong><span id="Country"></span></h2>')
+        const NameElem= document.querySelector('#name')
+        const HeightElem= document.querySelector('#Height')
+        const CountryElem= document.querySelector('#Country')
+        const name=' Hussain'
+        let height= ' 192mm'
+        const  country =' Nigeria'
+      
+        NameElem.innerHTML=name
+        HeightElem.innerHTML=height
+        CountryElem.innerHTML= country
+     </script>
+</body>
+</html>
